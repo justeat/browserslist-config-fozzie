@@ -1,0 +1,38 @@
+{
+  "name": "@justeat/browserslist-config-fozzie",
+  "version": "1.0.0",
+  "description": "Just Eat's Browserslist config used in UI packages",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js",
+    "prepublishOnly": "yarn lint && safe-publish-latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justeat/browserslist-config-fozzie"
+  },
+  "keywords": [
+    "browserslist",
+    "config",
+    "justeat",
+    "fozzie"
+  ],
+  "contributors": [
+    "Github contributors <https://github.com/justeat/browserslist-config-fozzie/graphs/contributors>"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/justeat/browserslist-config-fozzie/issues"
+  },
+  "homepage": "https://github.com/justeat/browserslist-config-fozzie",
+  "dependencies": {},
+  "devDependencies": {
+    "danger": "3.8.8",
+    "eslint": "5.16.0",
+    "eslint-plugin-import": "2.17.3",
+    "safe-publish-latest": "1.1.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}

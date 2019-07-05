@@ -1,0 +1,23 @@
+language: node_js
+
+node_js:
+  - "8"
+  - "10"
+
+cache: yarn
+
+sudo: false
+
+notifications:
+  email: false
+
+git:
+  depth: 1
+
+branches:
+  only:
+    - master
+
+script:
+  - yarn run test
+  - yarn danger ci
