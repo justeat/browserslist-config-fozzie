@@ -1,6 +1,6 @@
 {
   "name": "@justeat/browserslist-config-fozzie",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Just Eat's Browserslist config used in UI packages",
   "main": "index.js",
   "scripts": {
