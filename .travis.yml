@@ -19,5 +19,5 @@ branches:
     - master
 
 script:
-  - yarn run test
+  - yarn lint
   - yarn danger ci
