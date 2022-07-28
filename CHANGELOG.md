@@ -4,6 +4,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 
+v2.0.0
+------------------------------
+*July 27 2022*
+
+### Added
+- CircleCI config file.
+
+### Changed
+- Remove IE 11 from the supported browsers list.
+
+### Removed
+- TravisCI config file.
+
 v1.2.0
 ------------------------------
 *November 3 2020*
